@@ -6,6 +6,23 @@ body {
     background-color: #f4f4f4;
     font-family: Arial, sans-serif;
 }
+/* 배경 전체를 감싸는 컨테이너 */
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Sine_function001.svg.png'); /* 이미지 파일 경로 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+/* 기존 body 스타일은 기본값으로 줄이기 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
 .calculator {
     width: 250px;
